@@ -1,0 +1,39 @@
+boot notification: 
+{
+    "method":"state",
+    "value":<Bool>
+}
+switch mode
+{
+    "method":"mode",
+    "value":"manual"|"auto"
+}
+{
+    "method":"stop"
+}
+
+messages for manual mode
+{
+    "method":"move",
+    "type":"forvard"|"backvard"|"left"|"right",
+    "time":<Int>
+}
+
+messages for automode
+{
+    "method":"pool_dimensions",
+    "length":<Int>,
+    "width"<Int>
+}
+{
+    "method":"start"
+}
+{
+    "method":"velocity",
+    "value":<Int>
+}
+{
+    "method":"shit_dimensions",
+    "length":<Int>,
+    "width"<Int>
+}
